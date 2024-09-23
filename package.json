@@ -1,0 +1,24 @@
+{
+  "name": "json-cleaner",
+  "displayName": "JSON Cleaner",
+  "description": "Removes data from a json structure.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+        "command": "jsonCleaner.cleanJson",
+        "title": "Clean JSON"
+    }]
+  },
+  "scripts": {},
+  "devDependencies": {
+    "@types/vscode": "^1.93.0"
+  }
+}
